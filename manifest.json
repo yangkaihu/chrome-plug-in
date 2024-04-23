@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name":"chrome plug-in of tabs manager",
+    "version":"1.0.0",
+    "description":"chrome plug-in of tabs manager for us",
+    "icons":{
+        "128":"images/image.png"
+    },
+    "action":{
+       "default_popup":"popup.html"
+    },
+    "host_permissions": [
+    "https://*/*"
+  ],
+  "permissions": [
+    "tabGroups"
+  ]
+}
